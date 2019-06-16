@@ -1,0 +1,338 @@
+p, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.heavy {
+  font-weight: 700;
+}
+
+body {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 400;
+}
+
+.blue {
+  color: #3cb4c2;
+}
+
+header {
+  background: #fff url(../img/header-bg.jpg) no-repeat center -10px;
+}
+header .header-panel {
+  padding-top: 24px;
+}
+header ul {
+  margin-top: 10px;
+}
+header li {
+  display: inline-block;
+  margin-right: 10px;
+}
+header span {
+  font-weight: 700;
+}
+header .phone .tel {
+  font-size: 20px;
+}
+header .phone a {
+  color: black;
+}
+header h1, header h3 {
+  font-weight: 700;
+}
+header .header-content {
+  padding-top: 70px;
+}
+header .header-content_item {
+  display: inline-block;
+  width: 49%;
+  margin-top: 30px;
+}
+header .header-content_item:last-child {
+  margin-bottom: 130px;
+}
+
+.register {
+  background: #fff;
+}
+.register h2 {
+  font-weight: 700;
+  font-size: 27pt;
+}
+.register-form-input {
+  display: block;
+  margin: 20px 0;
+  width: 70%;
+  height: 55px;
+  border: 3px solid #62d8e6;
+  border-radius: 50px;
+  padding: 25px 25px;
+}
+.register-form-input:focus {
+  outline: none;
+}
+.register-form-btn {
+  display: block;
+  margin: 25px 0 25px;
+  width: 70%;
+  height: 55px;
+  border: none;
+  -webkit-box-shadow: 2.25px 9.744px 53.32px 8.68px rgba(7, 133, 148, 0.3);
+          box-shadow: 2.25px 9.744px 53.32px 8.68px rgba(7, 133, 148, 0.3);
+  border-radius: 50px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3bb5c3), to(#19d8ee));
+  background: linear-gradient(to top, #3bb5c3, #19d8ee);
+  color: #fff;
+  font-size: 15pt;
+  font-weight: 700;
+}
+.register-form-check {
+  color: #afafaf;
+}
+.register-features {
+  margin-top: 100px;
+}
+.register-features ul {
+  padding: 0;
+  margin-top: 30px;
+}
+.register-features ul li {
+  padding-bottom: 15px;
+  list-style: none;
+}
+.register-features ul li:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  margin-right: 5px;
+  background: url(../img/point.png) no-repeat center;
+}
+.register-phone {
+  position: relative;
+  top: 30px;
+}
+
+#procedures {
+  background: #fff url(../img/procedures-bg.jpg) no-repeat top center;
+}
+
+.procedures-text {
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+.procedures-text h2 {
+  font-weight: 700;
+}
+.procedures-minitext {
+  font-size: 14pt;
+  padding-bottom: 30px;
+}
+.procedures-nav {
+  background: #fff;
+  -webkit-box-shadow: 4.95px 4.95px 20px 0px rgba(0, 0, 0, 0.18);
+          box-shadow: 4.95px 4.95px 20px 0px rgba(0, 0, 0, 0.18);
+  margin-bottom: 100px;
+}
+.procedures-nav_cont {
+  padding: 40px 0px 40px 50px;
+}
+.procedures a {
+  color: #c5c5c5;
+}
+.procedures-result {
+  padding-top: 25px;
+}
+.procedures-list li {
+  color: #3cb4c2;
+  padding-top: 15px;
+}
+.procedures-list span {
+  color: #000;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #3cb4c2;
+  border-bottom: 2px solid #3cb4c2;
+}
+
+.nav-tabs .nav-link {
+  border: 0px solid transparent;
+  border-bottom: 1px solid #dedede;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: black;
+}
+
+#discount {
+  background: #e2fcff url(../img/discount-right.png) no-repeat top right;
+}
+
+.discount-text {
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+.discount-text h2 {
+  font-weight: 700;
+}
+.discount-minitext {
+  font-size: 14pt;
+  padding-bottom: 20px;
+}
+.discount-list {
+  padding: 0 0 0 15px;
+}
+.discount-list li {
+  padding-bottom: 15px;
+  list-style: none;
+}
+.discount-list li:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  margin-right: 5px;
+  background: url(../img/point.png) no-repeat center;
+}
+.discount-button {
+  padding-bottom: 60px;
+}
+.discount-button .wid {
+  width: 50%;
+}
+
+.advantages-text {
+  padding-top: 70px;
+}
+.advantages-text h2 {
+  font-weight: 700;
+}
+.advantages-item {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#individual {
+  background: #fff url(../img/individual_bg.png) no-repeat top center;
+}
+
+.individual-text {
+  padding-top: 60px;
+}
+.individual-text h2 {
+  font-weight: 700;
+}
+.individual-rubric {
+  padding-top: 30px;
+  font-size: 18px;
+}
+.individual-list {
+  padding: 0 0 0 20px;
+}
+.individual-list li {
+  padding-top: 15px;
+  list-style: none;
+}
+.individual-list li:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  margin-right: 5px;
+  background: url(../img/point.png) no-repeat center;
+}
+.individual-list li:last-child {
+  padding-bottom: 80px;
+}
+
+.equipment {
+  background: #fff;
+}
+.equipment-text {
+  padding-top: 50px;
+}
+.equipment-text h2 {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.equipment-text h3 {
+  padding-bottom: 40px;
+}
+.equipment-list li {
+  padding-top: 15px;
+  list-style: none;
+}
+.equipment-list li:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  margin-right: 5px;
+  background: url(../img/point.png) no-repeat center;
+}
+.equipment-list li:last-child {
+  padding-bottom: 80px;
+}
+.equipment-video {
+  padding-top: 80px;
+}
+
+#specialist {
+  background: #fff url(../img/specialist-bg.png) no-repeat top center;
+}
+
+.specialist-text {
+  padding-top: 100px;
+}
+.specialist-text h2 {
+  font-weight: 700;
+}
+.specialist-text h3 {
+  padding-top: 15px;
+  font-size: 16pt;
+}
+.specialist-text p {
+  padding-top: 40px;
+}
+.specialist-list li {
+  padding-top: 15px;
+  list-style: none;
+}
+.specialist-list li:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  margin-right: 5px;
+  background: url(../img/point.png) no-repeat center;
+}
+.specialist-button {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.specialist-btn {
+  display: block;
+  margin: 25px 0 25px;
+  width: 55%;
+  height: 55px;
+  border: none;
+  -webkit-box-shadow: 2.25px 9.744px 53.32px 8.68px rgba(7, 133, 148, 0.3);
+          box-shadow: 2.25px 9.744px 53.32px 8.68px rgba(7, 133, 148, 0.3);
+  border-radius: 50px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3bb5c3), to(#19d8ee));
+  background: linear-gradient(to top, #3bb5c3, #19d8ee);
+  color: #fff;
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */
