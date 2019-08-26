@@ -22,7 +22,10 @@ header {
 header .header-panel {
   padding-top: 24px;
 }
-header ul {
+header .header-panel_btn {
+  display: none;
+}
+header .header-panel_list {
   margin-top: 10px;
 }
 header li {
@@ -292,6 +295,9 @@ header .header-content_item:last-child {
 .specialist-text {
   padding-top: 100px;
 }
+.specialist-text_h2 {
+  font-size: 30px;
+}
 .specialist-text h2 {
   font-weight: 700;
 }
@@ -414,6 +420,64 @@ header .header-content_item:last-child {
 }
 .answers-form-checkt {
   color: #afafaf;
+}
+
+@media (max-width: 576px) {
+  header {
+    background: #e1fcff url(../img/header-bgm.png) no-repeat center 20px;
+  }
+  header .header-panel_btn {
+    display: block;
+    position: absolute;
+    right: 10px;
+  }
+  header .header-panel_logo {
+    width: 70%;
+  }
+  header .header-panel_list {
+    display: none;
+  }
+  header .phone {
+    display: none;
+  }
+  header .adress {
+    display: none;
+  }
+  header .header-content {
+    padding-top: 20px;
+  }
+  header .header-content h1 {
+    font-size: 27px;
+    text-align: center;
+  }
+  header .header-content h3 {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+  }
+  header .header-content_item {
+    display: inline-block;
+    width: 90%;
+    margin-top: 15px;
+  }
+  header .header-content_item:last-child {
+    margin-bottom: 20px;
+  }
+  header .header-content_mob {
+    margin-top: 340px;
+  }
+  header .header-content_image {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .equipment-video {
+    display: none;
+  }
+
+  .specialist-text_h2 {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

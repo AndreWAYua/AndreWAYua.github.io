@@ -14,7 +14,9 @@ header
 	background: #fff url(../img/header-bg.jpg) no-repeat center -10px
 	.header-panel
 		padding-top: 24px
-	ul
+		&_btn
+			display: none
+	.header-panel_list
 		margin-top: 10px 
 	li 
 		display: inline-block
@@ -220,6 +222,8 @@ header
 .specialist
 	&-text
 		padding-top: 100px
+		&_h2
+			font-size: 30px
 		h2
 			font-weight: 700
 		h3
@@ -315,3 +319,6 @@ header
 			margin-left: -10%
 			&t 
 				color: #afafaf
+
+
+@import "media"

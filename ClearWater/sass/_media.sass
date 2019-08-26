@@ -1,0 +1,47 @@
+//------------Адаптив для сайту-----------//
+
+@media (max-width:576px)
+	header
+		background: #e1fcff url(../img/header-bgm.png) no-repeat center 20px
+		.header-panel
+			&_btn
+				display: block
+				position: absolute
+				right: 10px
+			&_logo
+				width: 70%
+		.header-panel_list
+			display: none
+		.phone
+			display: none
+		.adress
+			display: none
+		.header-content
+			padding-top: 20px
+			h1
+				font-size: 27px
+				text-align: center
+			h3
+				font-size: 21px
+				font-weight: 400
+				text-align: center
+			&_item
+				display: inline-block
+				width: 90%
+				margin-top: 15px
+				&:last-child
+					margin-bottom: 20px
+			&_mob
+				margin-top: 340px
+			&_image
+				float: left
+				margin-right: 10px
+	.equipment
+		&-video
+			display: none
+			//iframe
+				//width: 300px
+	.specialist
+		&-text
+			&_h2
+				font-size: 20px
