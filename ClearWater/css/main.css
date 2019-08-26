@@ -424,7 +424,7 @@ header .header-content_item:last-child {
 
 @media (max-width: 576px) {
   header {
-    background: #e1fcff url(../img/header-bgm.png) no-repeat center 20px;
+    background: #e1fcff url(../img/header-bgm-mob.png) no-repeat center 20px;
   }
   header .header-panel_btn {
     display: block;
@@ -542,4 +542,5 @@ header .header-content_item:last-child {
     font-size: 20px;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
