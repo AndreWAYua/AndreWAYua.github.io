@@ -471,6 +471,69 @@ header .header-content_item:last-child {
     margin-right: 10px;
   }
 
+  .register-form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .register-form-input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .register-form-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .register-features {
+    margin-top: 30px;
+  }
+  .register-phone {
+    display: none;
+  }
+
+  .procedures-text {
+    text-align: center;
+  }
+  .procedures-text h2 {
+    font-size: 22px;
+  }
+  .procedures p {
+    font-size: 17px;
+  }
+  .procedures-nav {
+    margin-bottom: 20px;
+  }
+  .procedures-nav_cont {
+    padding: 10px;
+  }
+
+  #discount {
+    background: #e2fcff url(../img/discount-right-mob.png) no-repeat top right;
+  }
+
+  .discount-text {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .discount-text h2 {
+    font-size: 22px;
+  }
+  .discount-minitext {
+    font-size: 13pt;
+    padding-bottom: 10px;
+  }
+  .discount-list {
+    padding: 0;
+  }
+  .discount-button {
+    padding-bottom: 25px;
+  }
+  .discount-button .wid {
+    width: 80%;
+  }
+
   .equipment-video {
     display: none;
   }
@@ -479,5 +542,4 @@ header .header-content_item:last-child {
     font-size: 20px;
   }
 }
-
 /*# sourceMappingURL=main.css.map */
