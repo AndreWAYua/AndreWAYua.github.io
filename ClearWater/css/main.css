@@ -424,7 +424,7 @@ header .header-content_item:last-child {
 
 @media (max-width: 576px) {
   header {
-    background: #e1fcff url(../img/header-bgm-mob.png) no-repeat center 20px;
+    background: #e1fcff url(../img/header-bgm.png) no-repeat center 20px;
   }
   header .header-panel_btn {
     display: block;
@@ -534,8 +534,56 @@ header .header-content_item:last-child {
     width: 80%;
   }
 
+  .advantages-text {
+    padding-top: 20px;
+  }
+  .advantages-text h2 {
+    font-size: 23px;
+  }
+  .advantages-item {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  #individual {
+    background: #fff url(../img/individual_bgm.png) no-repeat;
+  }
+
+  .individual-text {
+    padding-top: 60px;
+    text-align: center;
+  }
+  .individual-text h2 {
+    font-size: 23px;
+  }
+  .individual-rubric {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .individual-list {
+    padding: 0;
+  }
+
+  .equipment-text {
+    padding-top: 20px;
+  }
+  .equipment-text h2 {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .equipment-text h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  .equipment-list li:last-child {
+    padding-bottom: 20px;
+  }
   .equipment-video {
-    display: none;
+    text-align: center;
+  }
+  .equipment-video iframe {
+    width: 300px;
   }
 
   .specialist-text_h2 {
