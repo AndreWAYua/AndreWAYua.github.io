@@ -557,7 +557,7 @@ header .header-content_item:last-child {
     font-size: 23px;
   }
   .individual-rubric {
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 15px;
     font-weight: 700;
   }
@@ -586,8 +586,33 @@ header .header-content_item:last-child {
     width: 300px;
   }
 
+  #specialist {
+    background: #fff url(../img/specialist-bgm.png) no-repeat top center;
+  }
+
+  .specialist-text {
+    padding-top: 70px;
+  }
   .specialist-text_h2 {
-    font-size: 20px;
+    font-size: 21px;
+    text-align: center;
+  }
+  .specialist-text h3 {
+    font-size: 13pt;
+    margin-bottom: 345px;
+  }
+  .specialist-text p {
+    font-size: 17px;
+  }
+  .specialist-list li {
+    padding-top: 5px;
+  }
+  .specialist-button {
+    padding-top: 10px;
+  }
+  .specialist-btn {
+    margin: 0 auto;
+    width: 80%;
   }
 }
 
