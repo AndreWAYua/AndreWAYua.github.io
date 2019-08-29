@@ -614,6 +614,38 @@ header .header-content_item:last-child {
     margin: 0 auto;
     width: 80%;
   }
+
+  .questions {
+    padding-bottom: 30px;
+  }
+  .questions-text {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 23px;
+  }
+  .questions-collapse {
+    padding-top: 0;
+  }
+
+  .answers-form {
+    padding: 25px 15px;
+  }
+  .answers-form-text {
+    text-align: center;
+    font-size: 26px;
+  }
+  .answers-form-mtext {
+    font-size: 15px;
+  }
+  .answers-form-input {
+    width: 85%;
+  }
+  .answers-form-area {
+    width: 85%;
+  }
+  .answers-form-btn {
+    width: 85%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
